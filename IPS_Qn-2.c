@@ -15,6 +15,7 @@ int main(){
         printf("%d, ", arr[i]);
         sum+=arr[i];
     }
+    
     printf("%d\n", arr[n-1]);
     printf("%d\n", arr[n-1]+sum);
     return 0;
